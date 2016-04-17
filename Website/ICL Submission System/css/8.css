@@ -1,0 +1,174 @@
+.hidden {
+    display: none;
+}
+
+* { margin: 0; padding: 0; outline: 0; border: 0; }
+
+header, section, footer,
+aside, nav, article, figure {
+	display: block;
+}
+
+brr {
+   display: block;
+   margin: 1px 0;
+}
+
+brrr {
+   display: block;
+   margin: 13px 0;
+}
+
+
+brb {
+   display: block;
+   margin: 30px 0;
+}
+
+/* basic css */
+
+body { 
+	background-color: #9EcDDF; 
+  	font-family: 'Helvetica Neue';
+  	color: #000000;
+  	line-height: 32px;
+  	font-size: 15.5;
+}
+
+h1 {
+  color: #000000;
+  font-family: 'Helvetica Neue';
+  font-size: 35px;
+}
+
+p { 
+	font-family: 'Helvetica Neue';
+	font-weight: 1200;
+	color: #000000; 
+	font-size: 22px; 
+}
+
+pp1 {
+	font-family: 'Helvetica Neue';
+	font-weight: 1200;
+	color: #000000; 
+	font-size: 18px;
+	line-height: 24px;
+}
+
+pp2 {
+	font-family: 'Helvetica Neue';
+	font-weight: 1500;
+	color: #000000; 
+	font-size: 13.5px;
+	white-space: pre;
+	line-height: 22px;
+}
+
+header {
+  text-align: center;
+  background-size: cover;
+  color: #000000;
+}
+
+ul {
+  padding: 10px;
+  background: #5DACCA;
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+  list-style: none;
+}
+
+.nav {
+  font-family: 'Helvetica Neue';
+  font-weight: 300;
+}
+
+.nav li a {
+  color: #ffffff;
+}
+
+.intro {
+  padding-bottom: 20px;
+}
+
+/*Contact Form*/
+#input-form {
+	width: 570px;
+	background-color: #ffffff;
+	margin: 0px auto;
+	padding: 40px 40px 35px 40px;
+	border-radius: 0 0 3px 3px;
+}
+
+#iinput-form {
+	width: 570px;
+	background-color: #ffffff;
+	margin: 0px auto;
+	padding: 40px 40px 35px 40px;
+	border-radius: 0 0 3px 3px;
+}
+
+input[type="text"] {
+	display: inline;
+	width: 400px;
+	font-size: 14px;
+	background-color:#9EcDDF;
+	font-family: 'Helvetica Neue';color: white;
+	padding: 5px 0px 5px 10px;
+	margin: 5px 0px 5px 0px;
+	border-radius: 3px;
+	-moz-border-radius: 5px;
+}
+
+#input-q5{
+	display: inline;
+	width: 400px;
+	font-size: 14px;
+	background-color:#9EcDDF;
+	font-family: 'Helvetica Neue';color: white;
+	padding: 15px 0px 30px 10px;
+	margin: 5px 0px 5px 0px;
+	border-radius: 3px;
+	-moz-border-radius: 5px;
+
+}
+
+.inputfield {
+  padding-top: 10px;
+  font-weight: 400;
+  font-color: ;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+  font-weight: 300;
+}
+
+input[type="submit"]{
+	display: inline;
+	width: 410px;
+  	font-size: 14px;
+	background-color:#999;
+	color: #fff;
+	padding: 5px 0px;
+	margin: 10px 0px 0px 0px;
+	border-radius: 3px;
+	-moz-border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+	background-color:#777;
+}
+
+label.radio {
+	cursor: pointer;
+	text-indent: 20px;
+	overflow: visible;
+	display: inline-block;
+	position: relative;
+	margin-bottom: 15px;
+	line-height: 75px;
+}
